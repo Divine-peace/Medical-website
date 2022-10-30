@@ -5,9 +5,6 @@
   --black: #212124;
   --white: #fcfefe;
 }
-* {
-  outline: 1px solid red;
-}
 
 html,
 body {
