@@ -32,7 +32,7 @@ body {
   max-width: 100%;
   background-color: #fff;
   height: 80px;
-  /* border: 2px solid red; */
+ 
 }
 .header-info-mobile {
   display: none;
@@ -57,7 +57,7 @@ body {
 }
 
 .logo span {
-  color: #159eec;
+  color: #065C8E;
 }
 .info-container img {
   margin: 1rem 0;
@@ -78,7 +78,7 @@ body {
   height: 36px;
   color: var(--primary);
 }
-.info h4 {
+.info h2 {
   font-family: Work Sans;
   font-weight: 500;
   font-size: 1rem;
@@ -90,7 +90,7 @@ body {
   line-height: 1.13rem;
   font-family: Work Sans;
   font-weight: 500;
-  color: var(--secondary);
+  color:#094E77
 }
 .links-container {
   height: 80px;
@@ -106,7 +106,7 @@ body {
   align-items: center;
   justify-content: space-around;
   background-color: var(--primary);
-  /* border: 2px solid red; */
+
 }
 .links {
   display: flex;
@@ -144,7 +144,7 @@ i.hamburger {
 .mobile-menu {
   display: none;
 }
-.flex-search a {
+.btn-appointment{
   text-decoration: none;
   color: #1f2b6c;
   font-family: Work sans-serif;
@@ -157,7 +157,7 @@ i.hamburger {
   line-height: 0.7rem;
 }
 i.hamburger {
-  /* display: none; */
+  
   color: #fff;
   cursor: pointer;
 }
@@ -170,11 +170,11 @@ i.hamburger {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  /* width: 90rem; */
   height: 550px;
   overflow: auto;
   box-sizing: border-box;
-  /* border: 2px solid red; */
+  
+  
 }
 
 .hero-text {
@@ -183,6 +183,7 @@ i.hamburger {
   margin: auto;
   margin-top: 6.25rem;
   padding: 1.5rem 0;
+  
 }
 .hero-text .sub-text {
   min-width: 12.3rem;
@@ -192,7 +193,7 @@ i.hamburger {
   font-size: 0.78rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--secondary);
+  color: #0B4E75;
 }
 .hero-text .main-text {
   font-family: Yeseva One;
@@ -221,7 +222,7 @@ i.hamburger {
   height: auto;
   margin: auto;
   background-color: #fff;
-  /* border: 2px solid red; */
+ 
 }
 
 .flex-appointment-section {
@@ -231,8 +232,8 @@ i.hamburger {
   width: 62rem;
   display: flex;
   gap: 3.5rem;
-  /* border: 2px solid blue; */
   box-sizing: border-box;
+  
 }
 .appointment {
   width: 19.8rem;
@@ -256,7 +257,7 @@ i.hamburger {
   color: var(--primary);
 }
 .appoint-3 {
-  background-color: var(--secondary);
+  background-color:#0A5580;
   color: #fff;
 }
 .welcome-text {
@@ -272,7 +273,7 @@ i.hamburger {
   font-size: 1.13rem;
   font-size: 700;
   line-height: 1.3rem;
-  color: var(--secondary);
+  color: #0A5B8A;
   text-align: center;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -297,7 +298,7 @@ i.hamburger {
   font-family: Work Sans;
   font-weight: 400;
   line-height: 1.37rem;
-  color: var(--secondary);
+  color: #0A5885;
 }
 
 .welcome-bg-img img {
@@ -312,14 +313,13 @@ i.hamburger {
   background-size: cover;
 }
 .services-section {
-  /* width: 90rem; */
+ 
   max-width: 100%;
   height: 742px;
   box-sizing: border-box;
-  /* padding-bottom: 7rem; */
-  /* border: 2px solid green; */
+  
 }
-.services-section h3 {
+.services-section h2 {
   text-align: center;
   margin-top: 2.5rem;
   font-family: Work Sans;
@@ -328,7 +328,7 @@ i.hamburger {
   line-height: 1.3rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--secondary);
+  color: #0A5B8A;
 }
 .services-section span {
   font-family: Yeseva One;
@@ -372,7 +372,7 @@ i.hamburger {
 .flex-item-2 {
   max-width: 27.8rem;
 }
-.flex-item-2 h5 {
+.flex-item-2 h3 {
   font-size: 1.5rem;
   font-family: Work Sans;
   font-weight: 500;
@@ -424,25 +424,25 @@ i.hamburger {
   margin: auto;
   padding-bottom: 8rem;
   box-sizing: border-box;
-  /* border: 2px solid black; */
+
 }
 
 .specialties-heading {
   min-height: 66px;
   text-align: center;
   margin-bottom: 6rem;
-  /* border: 2px solid red; */
+  
 }
-.specialties-heading p {
+.specialties-heading h2 {
   font-family: Work sans-serif;
   font-size: 1.13rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   line-height: 1.3rem;
-  color: var(--secondary);
+  color: #0A5B8A;
 }
-.specialties-heading h4 {
+.specialties-heading h3 {
   font-family: Yeneva One;
   font-weight: 400;
   font-size: 2rem;
@@ -517,7 +517,7 @@ i.hamburger {
   font-weight: 400;
   font-size: 2rem;
   line-height: 2.25rem;
-  color: var(--secondary);
+  color: #0A5885;
 }
 .book-appoint-section .text {
   font-family: Work Sans;
@@ -535,7 +535,7 @@ i.hamburger {
   margin: 0 4rem;
   position: relative;
   top: 5%;
-  /* border: 2px solid green; */
+  
 }
 
 .book-appoint-section {
@@ -543,8 +543,8 @@ i.hamburger {
   width: 25.4rem;
   min-height: 158px;
   padding: 2%;
-  /* border: 2px solid green; */
   box-sizing: border-box;
+ 
 }
 .form-container {
   width: 30.7rem;
@@ -568,6 +568,21 @@ i.hamburger {
 .flex-form-input .input-wrapper {
   height: 50px;
   color: #fcfefe;
+}
+.visuallyhidden{
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+}
+.text-area label{
+  color: #CCCCCC;
+  background-color: #1F2B6C;
 }
 
 .flex-form-input input {
@@ -606,7 +621,7 @@ i.hamburger {
   height: 100%;
   width: 100%;
   background-color: inherit;
-  color: #fcfefe;
+  color: #C7C7C7;
   font-family: Work Sans;
   font-size: 1rem;
   font-weight: 400;
@@ -638,7 +653,7 @@ i.hamburger {
   margin-top: 1.9rem;
   box-sizing: border-box;
 
-  /* border: 2px solid green; */
+  
 }
 
 .title-section {
@@ -661,7 +676,7 @@ i.hamburger {
   font-weight: 700;
   line-height: 1.3rem;
   letter-spacing: 0.16em;
-  color: var(--secondary);
+  color: #0A5885;
 }
 .title-section .sub-title {
   font-family: Yeseva One;
@@ -754,7 +769,7 @@ i.hamburger {
   margin-bottom: 5rem;
   box-sizing: border-box;
 
-  border: 2px solid green;
+ 
 }
 
 .flex-news {
@@ -830,7 +845,7 @@ i.hamburger {
   padding: 1rem;
   box-sizing: border-box;
 
-  /* border: 2px solid green; */
+  
 }
 .contact-title {
   text-align: center;
@@ -841,7 +856,7 @@ i.hamburger {
   font-weight: 700;
   line-height: 1.3;
   letter-spacing: 16%;
-  color: var(--secondary);
+  color: #0B5179;
   text-transform: uppercase;
 }
 .contact-title .contact-subtitle {
@@ -928,7 +943,7 @@ i.hamburger {
   max-width: 100%;
   box-sizing: border-box;
 
-  /* border: 2px solid green; */
+
 }
 .flex-footer {
   display: flex;
@@ -1049,12 +1064,7 @@ hr {
   .news-section {
     padding: 0;
   }
-  /* .footer-flex-item1,
-  .footer-flex-item2,
-  .footer-flex-item3,
-  .footer-flex-item4 {
-    max-width: 20%;
-  } */
+  
   .meddical .med-title {
     max-width: 100%;
     font-size: 1.5rem;
@@ -1479,7 +1489,7 @@ hr {
   .footer {
     width: 100%;
     margin-top: 0;
-    in-bottom: 6rem;
+    margin-bottom: 6rem;
   }
   .flex-footer {
     flex-direction: column;
